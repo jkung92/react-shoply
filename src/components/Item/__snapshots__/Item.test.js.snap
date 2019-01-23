@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="Item"
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "between",
+      }
+    }
+  >
+    <h3>
+       
+       
+    </h3>
+    <p>
+       $
+    </p>
+    <img
+      alt="item.png"
+      style={
+        Object {
+          "height": "250px",
+          "width": "250px",
+        }
+      }
+    />
+    <span
+      style={
+        Object {
+          "color": "green",
+          "fontSize": "2em",
+        }
+      }
+    >
+      <i
+        className="fas fa-cart-plus"
+        onClick={[Function]}
+      />
+    </span>
+    <span
+      style={
+        Object {
+          "color": "red",
+          "fontSize": "2em",
+        }
+      }
+    >
+      <i
+        className="fas fa-cart-arrow-down"
+        onClick={[Function]}
+      />
+    </span>
+  </div>
+</div>
+`;

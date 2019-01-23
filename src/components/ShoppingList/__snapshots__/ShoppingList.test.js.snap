@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="ShoppingList"
+>
+  <Connect(ItemContainer)
+    id={1}
+    image="https://images.samsung.com/is/image/samsung/latin_en-hd-j4300ah-un32j4300ahxpa-001-front-indigo-blue"
+    name="tv"
+    price={219.99}
+  />
+</div>
+`;

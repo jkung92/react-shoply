@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<nav
+  className="navbar navbar-expand-sm navbar-dark bg-dark"
+>
+  <NavLink
+    activeClassName="active"
+    activeStyle={
+      Object {
+        "color": "dodgerblue",
+        "fontWeight": "bold",
+      }
+    }
+    aria-current="page"
+    className="navbar-brand"
+    exact={true}
+    to="/"
+  >
+    Shoply
+  </NavLink>
+  <div
+    className="navbar"
+    id="navbarNav"
+  >
+    <span
+      className="navbar-nav"
+    >
+      <li
+        className="nav-item active"
+      >
+        <NavLink
+          activeClassName="active"
+          activeStyle={
+            Object {
+              "color": "dodgerblue",
+              "fontWeight": "bold",
+            }
+          }
+          aria-current="page"
+          className="nav-link"
+          exact={true}
+          to="/jobs"
+        >
+          <p>
+            Cart : 
+          </p>
+        </NavLink>
+      </li>
+    </span>
+  </div>
+</nav>
+`;
