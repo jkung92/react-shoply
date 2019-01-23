@@ -1,5 +1,4 @@
 import { INCREMENT, DECREMENT } from './actionTypes';
-import { pbkdf2 } from 'crypto';
 
 const INITIAL_STATE = {
   items: [],

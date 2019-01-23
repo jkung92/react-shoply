@@ -24,7 +24,7 @@ class NavBar extends Component {
             <li className="nav-item active">
               <NavLink
                 exact
-                to={`/jobs`}
+                to={`/cart`}
                 activeStyle={activeStyle}
                 className="nav-link"
               >

@@ -6,11 +6,11 @@ import React, { Component } from 'react';
 class Item extends Component {
   handleIncrement = () => {
     console.log(`Props in item`, this.props);
-    this.props.increment(this.props.id);
+    this.props.increment(this.props);
   };
 
   handleDecrement = () => {
-    this.props.decrement(this.props.id);
+    this.props.decrement(this.props);
   };
 
   render() {

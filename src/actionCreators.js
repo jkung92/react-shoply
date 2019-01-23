@@ -1,15 +1,19 @@
 import { INCREMENT, DECREMENT } from './actionTypes';
 
-export function increment(id) {
+export function increment(item) {
   return {
     type: INCREMENT,
-    id: id
+    id: item.id,
+    name: item.name,
+    image: item.image_url
   };
 }
 
-export function decrement(id) {
+export function decrement(item) {
   return {
     type: DECREMENT,
-    id: id
+    id: item.id,
+    name: item.name,
+    image: item.image_url
   };
 }
